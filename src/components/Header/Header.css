@@ -2,8 +2,7 @@
     height: 80px;
     display: flex;
     align-items: center;
-    padding-left: 120px;
-    padding-right: 120px;
+    padding: 0 100px;
     background-color: #1C2B35;
     justify-content: space-between;
 
@@ -17,7 +16,7 @@
 .header a {
     color: #ffff;
     font-size: 20px;
-    margin-right: 32px;
+    margin-right: 42px;
     transition: all .2s;
     text-decoration: none;
 }
