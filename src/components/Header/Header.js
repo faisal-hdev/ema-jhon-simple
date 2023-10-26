@@ -1,12 +1,12 @@
-import React from 'react';
-import logo1 from '../../images/ema-jhon-logo.png';
 import './Header.css';
+import React from 'react';
+import logo from '../../images/Logo.svg'
 
 
 const Header = () => {
     return (
         <nav className='header'>
-            <img className='logo-png' src={logo1} alt="" />
+            <img className='logo-png' src={logo} alt="" />
             <div>
                 <a href="/Home">Home</a>
                 <a href="/Order">Order</a>

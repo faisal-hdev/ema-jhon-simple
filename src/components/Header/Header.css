@@ -2,9 +2,9 @@
     height: 80px;
     display: flex;
     align-items: center;
-    background-color: #1C2B35;
     padding-left: 120px;
     padding-right: 120px;
+    background-color: #1C2B35;
     justify-content: space-between;
 
 }
@@ -18,8 +18,8 @@
     color: #ffff;
     font-size: 20px;
     margin-right: 32px;
-    text-decoration: none;
     transition: all .2s;
+    text-decoration: none;
 }
 
 .header a:hover{
