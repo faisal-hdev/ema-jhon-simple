@@ -34,21 +34,28 @@
     margin-bottom: 10px;
 }
 
-.btn-card {
+.btn-cart {
     bottom: 0;
     width: 100%;
     border: none;
+    display: flex;
     font-size: 15px;
     font-weight: 400;
     color: #0E161A;
     position: absolute;
+    align-items: center;
     transition: all .2s;
     background: #FFE0B3;
+    justify-content: center;
     letter-spacing: 0.188px;
     border-radius: 0px 0px 8px 8px;
 }
 
-.btn-card:hover{
+.btn-cart .btn-text{
+    margin-right: 10px;
+}
+
+.btn-cart:hover{
     cursor: pointer;
     background-color: #ff9900;
 }
