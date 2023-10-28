@@ -1,0 +1,34 @@
+.cart{
+    top: 0;
+    position: sticky;
+    padding: 40px 24px;
+}
+
+.cart h2{
+    color: #1C2B35;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 45px;
+}
+
+.cart p{
+    color: #2A414F;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.085px;
+    margin-bottom: 26px;
+}
+
+.cart .grand-total {
+    color: #1C2B35;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.032px;
+}
+
