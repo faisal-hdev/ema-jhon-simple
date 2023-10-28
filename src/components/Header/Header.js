@@ -9,7 +9,6 @@ const Header = () => {
             <img className='logo-png' src={logo} alt="" />
             <div>
                 <a href="/Home">Home</a>
-                <a href="/Order">Order</a>
                 <a href="/Order">Order Review</a>
                 <a href="/Inventory">Manage Inventory</a>
                 <a href="/Login">Login</a>
