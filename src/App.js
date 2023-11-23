@@ -6,6 +6,8 @@ import Orders from "./components/Orders/Orders";
 import Inventory from "./components/Inventory/Inventory";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import { productsAndCartLoader } from "./components/loaders/ProductsAndCartLoader";
+import Login from "./components/Login/Login";
+import SignUp from "./components/SignUp/SignUp";
 
 function App() {
   const router = createBrowserRouter([
@@ -24,12 +26,20 @@ function App() {
           element: <Orders></Orders>,
         },
         {
-          path: "inventory",
+          path: "/inventory",
           element: <Inventory></Inventory>,
         },
         {
-          path: "about",
+          path: "/about",
           element: <About></About>,
+        },
+        {
+          path: "/login",
+          element: <Login></Login>,
+        },
+        {
+          path: "/signup",
+          element: <SignUp></SignUp>,
         },
       ],
     },
