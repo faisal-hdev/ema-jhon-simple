@@ -2,12 +2,12 @@ import "./App.css";
 import Main from "./layouts/Main";
 import Shop from "./components/Shop/Shop";
 import About from "./components/About/About";
+import Login from "./components/Login/Login";
+import SignUp from "./components/SignUp/SignUp";
 import Orders from "./components/Orders/Orders";
 import Inventory from "./components/Inventory/Inventory";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import { productsAndCartLoader } from "./components/loaders/ProductsAndCartLoader";
-import Login from "./components/Login/Login";
-import SignUp from "./components/SignUp/SignUp";
 
 function App() {
   const router = createBrowserRouter([
