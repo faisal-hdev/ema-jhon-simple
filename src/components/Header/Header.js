@@ -13,7 +13,7 @@ const Header = () => {
       <div>
         <Link to="/">Shop</Link>
         <Link to="/order">Order Review</Link>
-        <Link to="/shipping">Shipping Inventory</Link>
+        <Link to="/shipping">Inventory</Link>
         <Link to="/about">About us</Link>
         {user?.uid ? (
           <button className="btn-logOut" onClick={logOut}>
