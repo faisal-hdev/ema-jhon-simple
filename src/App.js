@@ -8,6 +8,8 @@ import Orders from "./components/Orders/Orders";
 import Inventory from "./components/Inventory/Inventory";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import { productsAndCartLoader } from "./components/loaders/ProductsAndCartLoader";
+import Shipping from "./components/Shipping/Shipping";
+import PrivateRoute from "./route/privateRoute";
 
 function App() {
   const router = createBrowserRouter([
@@ -26,8 +28,12 @@ function App() {
           element: <Orders></Orders>,
         },
         {
-          path: "/inventory",
-          element: <Inventory></Inventory>,
+          path: "/shipping",
+          element: (
+            <PrivateRoute>
+              <Shipping></Shipping>
+            </PrivateRoute>
+          ),
         },
         {
           path: "/about",
